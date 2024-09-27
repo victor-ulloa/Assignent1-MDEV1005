@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-image: url('https://via.placeholder.com/1920x600');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  header .btn {
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  section p.lead {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 575.98px) {
+    header {
+      padding: 40px 10px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    section {
+      padding: 30px 10px;
+    }
+  
+    section h1 {
+      font-size: 1.75rem;
+    }
+  
+    section p.lead {
+      font-size: 1rem;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    .card-text {
+      font-size: 0.95rem;
+    }
+  
+    .navbar-brand {
+      font-size: 1.25rem;
+    }
+  
+    .nav-link {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    header h1 {
+      font-size: 2.25rem;
+    }
+  
+    header p {
+      font-size: 1.1rem;
+    }
+  
+    section h1 {
+      font-size: 1.85rem;
+    }
+  
+    .navbar-brand {
+      font-size: 1.35rem;
+    }
+  
+    .nav-link {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    header h1 {
+      font-size: 2.5rem;
+    }
+  
+    header p {
+      font-size: 1.2rem;
+    }
+  
+    section h1 {
+      font-size: 2rem;
+    }
+  
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    .nav-link {
+      font-size: 1.05rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  }
